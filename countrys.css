@@ -1,0 +1,146 @@
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+row-gap: 30px;
+padding: 30px;
+}
+.body{
+    background-color:rgb(181, 202, 123);
+}
+
+
+
+ .countrycard h6{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+ }
+.detailcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}  
+#countryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.countrycard {
+    width: 200px;
+    background-color: palegoldenrod;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+ 
+    border: 1px solid #ddd;
+}
+
+.countrycard h2 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.countrycard p {
+    font-size: 14px;
+    color: rgb(104, 114, 116);
+    margin: 0;
+}
+
+.img-container {
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchBar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#regionContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+
+.region-tab {
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(219, 126, 177);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 14px;
+}
+
+
+.region-tab.active {
+    background-color: rgb(221, 141, 20);
+    color: white;
+}
+
+
+.region-tab:hover {
+    background-color: lightblue;
+}
+
+#sortSelect {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: white; 
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+
+#sortSelect.asc {
+    background-color: rgb(40, 145, 13);
+    color: black;
+    font-family: sans-serif;
+
+}
+
+
+#sortSelect.desc {
+    background-color: rgb(172, 19, 19);
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+#sortSelect.none {
+    background-color: rgb(25, 197, 219);
+font-family: sans-serif;
+    color: black;
+}
